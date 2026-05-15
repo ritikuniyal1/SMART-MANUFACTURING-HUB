@@ -12,7 +12,7 @@ The solution integrates live production data from Google Sheets and enables inte
 
 # Dashboard Preview
 
-![Smart Manufacturing Dashboard](Dashboard%20Image.png)
+![Smart Manufacturing Dashboard](dashboard-preview.png)
 
 ---
 
