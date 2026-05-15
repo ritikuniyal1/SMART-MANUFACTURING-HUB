@@ -1,229 +1,117 @@
 # Smart Manufacturing Hub Dashboard Project
 
-## Project Overview
+## Overview
 
-The Smart Manufacturing Hub Dashboard is a real-time production analytics solution developed in Power BI.  
-The dashboard integrates live production data from Google Sheets to monitor manufacturing performance, profitability, production costs, and operational efficiency across multiple plants.
+The Smart Manufacturing Hub Dashboard is a real-time production analytics solution developed using Power BI.
 
-This project enables management teams to make data-driven decisions using interactive dashboards, executive KPIs, and multi-dimensional production analysis.
+This dashboard provides comprehensive insights into manufacturing performance, sales, profitability, production cost analysis, and operational efficiency across multiple manufacturing facilities.
+
+The solution integrates live production data from Google Sheets and enables interactive business intelligence reporting for executive-level decision-making.
 
 ---
 
-## Business Objective
+# Dashboard Preview
 
-The objective of this dashboard is to:
-- Track manufacturing and sales performance in real time
-- Analyze profit trends across plants, managers, and regions
-- Monitor production costs versus sales performance
-- Improve operational visibility across manufacturing facilities
-- Enable executive-level KPI monitoring through interactive visualizations
+![Smart Manufacturing Dashboard](Dashboard%20Image.png)
+
+---
+
+## Key Business Metrics
+
+| KPI | Value |
+|------|------|
+| Total Orders | 1500 |
+| Total Quantity | 413K |
+| Unit Price | 4M |
+| Production Cost | ₹795M |
+| Total Sales | ₹1B |
+| Total Profit | ₹349M |
+
+---
+
+## Dashboard Features
+
+### Executive KPI Monitoring
+- Real-time monitoring of:
+  - Orders
+  - Quantity
+  - Sales
+  - Profit
+  - Production Cost
+
+### Interactive Filtering
+Dynamic slicers allow filtering by:
+- Plant
+- Order Date
+- Product
+- Region
+- Manager
+- Shift
+
+### Profitability Analysis
+- Profit analysis by Manager
+- Profit comparison across manufacturing plants
+- Region-wise profit contribution analysis
+
+### Product Performance Analysis
+- Production Cost vs Sales vs Profit trends
+- Product category comparison
+- Operational efficiency insights
+
+### Multi-Plant Analytics
+Production tracking across:
+- Faridabad Plant
+- Delhi Plant
+- Gurgaon Factory
+- Noida Unit
+
+---
+
+## Business Objectives
+
+The dashboard was developed to:
+
+- Improve manufacturing visibility
+- Track operational performance in real time
+- Analyze production profitability
+- Compare plant-level performance
+- Support strategic production planning
+- Enable data-driven executive decisions
 
 ---
 
 ## Tools & Technologies Used
 
 - Power BI
-- Google Sheets Integration
 - DAX
+- Google Sheets Integration
 - Data Modeling
 - Data Visualization
+- Power Query
 - Real-Time Data Refresh
 
 ---
 
-## Executive KPIs
+## Key Insights Generated
 
-| KPI | Value |
-|------|------|
-| Total Orders | 1,500 |
-| Total Quantity | 413K |
-| Total Profit | ₹349M |
-| Total Sales | ₹1B |
-| Production Cost | ₹795M |
+- Delhi and Faridabad plants generated the highest profits
+- North region contributed the largest share of total profit
+- Gear Box category delivered strong sales performance
+- Manager-wise profitability trends highlighted top performers
+- Production cost optimization opportunities identified across products
 
 ---
-
-## Dashboard Features
-
-- Real-time Google Sheets data integration
-- Interactive slicers and filters
-- Executive KPI cards
-- Multi-plant production comparison
-- Profitability analysis by:
-  - Manager
-  - Plant
-  - Region
-- Production Cost vs Sales trend analysis
-- Product category performance tracking
-- Dynamic and responsive visualizations
-
----
-
-## Key Filters
-
-The dashboard includes interactive filtering capabilities based on:
-
-- Plant
-- Product
-- Region
-- Manager
-- Shift
-
----
-
-## Manufacturing Locations Covered
-
-Production analytics are monitored across the following facilities:
-
-- Faridabad
-- Delhi
-- Gurgaon
-- Noida
-
----
-
-## Dashboard Insights
-
-- Identified high-performing manufacturing plants
-- Compared regional profitability trends
-- Analyzed production efficiency across shifts
-- Tracked cost optimization opportunities
-- Evaluated manager-wise operational performance
 
 ## Repository Contents
 
 ```text
 Smart-Manufacturing-hub-Dashboard-Project
 │
-├── # Smart Manufacturing Hub Dashboard Project
-
-## Project Overview
-
-The Smart Manufacturing Hub Dashboard is a real-time production analytics solution developed in Power BI.  
-The dashboard integrates live production data from Google Sheets to monitor manufacturing performance, profitability, production costs, and operational efficiency across multiple plants.
-
-This project enables management teams to make data-driven decisions using interactive dashboards, executive KPIs, and multi-dimensional production analysis.
-
----
-
-## Business Objective
-
-The objective of this dashboard is to:
-- Track manufacturing and sales performance in real time
-- Analyze profit trends across plants, managers, and regions
-- Monitor production costs versus sales performance
-- Improve operational visibility across manufacturing facilities
-- Enable executive-level KPI monitoring through interactive visualizations
-
----
-
-## Tools & Technologies Used
-
-- Power BI
-- Google Sheets Integration
-- DAX
-- Data Modeling
-- Data Visualization
-- Real-Time Data Refresh
-
----
-
-## Executive KPIs
-
-| KPI | Value |
-|------|------|
-| Total Orders | 1,500 |
-| Total Quantity | 413K |
-| Total Profit | ₹349M |
-| Total Sales | ₹1B |
-| Production Cost | ₹795M |
-
----
-
-## Dashboard Features
-
-- Real-time Google Sheets data integration
-- Interactive slicers and filters
-- Executive KPI cards
-- Multi-plant production comparison
-- Profitability analysis by:
-  - Manager
-  - Plant
-  - Region
-- Production Cost vs Sales trend analysis
-- Product category performance tracking
-- Dynamic and responsive visualizations
-
----
-
-## Key Filters
-
-The dashboard includes interactive filtering capabilities based on:
-
-- Plant
-- Product
-- Region
-- Manager
-- Shift
-
----
-
-## Manufacturing Locations Covered
-
-Production analytics are monitored across the following facilities:
-
-- Faridabad
-- Delhi
-- Gurgaon
-- Noida
-
----
-
-## Dashboard Insights
-
-- Identified high-performing manufacturing plants
-- Compared regional profitability trends
-- Analyzed production efficiency across shifts
-- Tracked cost optimization opportunities
-- Evaluated manager-wise operational performance
-
----
-
-## Dashboard Preview
-
-> Add your dashboard screenshots below.
-
-### Overview Dashboard
-![Dashboard Overview](overview.png)
-
-### Profit Analysis Dashboard
-![Profit Analysis](profit-analysis.png)
-
-### Production Cost vs Sales Dashboard
-![Cost vs Sales](cost-vs-sales.png)
-
----
-
-## Repository Contents
-
-```text
-
-│
 ├── Smart-Manufacturing-hub-Dashboard-Project.pbix
-├── README.md
 ├── Dashboard Image.png
 ├── Dashboard pdf.pdf
 ├── Manufacturing_Data.xlsx
-└── dataset/
-```
-
----
-
-## Author
-
-Ritik Uniyal 
-Data Analyst 
-
+└── README.md
 ```
 
 ---
@@ -231,10 +119,10 @@ Data Analyst
 ## Author
 
 Ritik Uniyal  
-Data Analyst | Power BI Developer
+Data Analyst
 
 ---
 
 ## Project Status
 
-Completed and actively maintained for portfolio demonstration purposes.
+Completed and maintained as a professional portfolio project.
